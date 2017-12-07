@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/540Grunkspin/SubtitleRadioButton.svg)](https://jitpack.io/#540Grunkspin/SubtitleRadioButton)
+
 # Subtitle Radio Button
 
 Simple radio button with an additional subtitle.
