@@ -9,9 +9,8 @@ import android.widget.RadioButton
 class SubtitleRadioButton @JvmOverloads constructor(
         context: Context,
         attributeSet: AttributeSet? = null,
-        defStyleAttr: Int = R.attr.radioButtonStyle,
-        defStyleRes: Int = 0
-) : RadioButton(context, attributeSet, defStyleAttr, defStyleRes) {
+        defStyleAttr: Int = R.attr.radioButtonStyle
+) : RadioButton(context, attributeSet, defStyleAttr) {
     private val titleSpan: TextAppearanceSpan
     var title: String = ""
         set(value) {
@@ -30,7 +29,7 @@ class SubtitleRadioButton @JvmOverloads constructor(
         val typedArray = context.obtainStyledAttributes(
                 attributeSet,
                 R.styleable.SubtitleRadioButton,
-                defStyleAttr, defStyleRes
+                defStyleAttr, 0
         )
 
         try {

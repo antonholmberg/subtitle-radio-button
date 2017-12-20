@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "org.grunkspin.suntitleradiobutton"
+        applicationId "org.grunkspin.suntitleradiobutton.example"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
